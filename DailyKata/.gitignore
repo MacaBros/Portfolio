@@ -1,0 +1,9 @@
+# Ignore .NET build artifacts inside DailyKata
+bin/
+obj/
+.vs/
+TestResults/
+
+# Override root Unity .gitignore so .NET kata projects & solution are tracked
+!*.csproj
+!*.sln
